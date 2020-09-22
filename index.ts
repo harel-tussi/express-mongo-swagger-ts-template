@@ -1,6 +1,6 @@
 import express from "express";
-const swaggerUi = require("swagger-ui-express");
-const swaggerJsDoc = require("swagger-jsdoc");
+import swaggerUi from "swagger-ui-express";
+import swaggerJsDoc from "swagger-jsdoc";
 import { router as todoRouter } from "./routes/todo";
 import mongoose from "mongoose";
 // rest of the code remains same
